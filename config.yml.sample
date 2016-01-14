@@ -1,0 +1,14 @@
+# The From email address
+from: 'noreply@example.com'
+
+# SMTP settings. At least a hostname is required.
+smtp:
+  host: 'smtp.example.com'
+  ssl: true
+  #user: 'username'
+  #password: 'password'
+
+# Optional Redis settings.
+#redis:
+#  host '127.0.0.1'
+#  port: 6379
